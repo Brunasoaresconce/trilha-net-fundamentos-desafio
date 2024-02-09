@@ -31,7 +31,11 @@ namespace DesafioFundamentos.Models
             {
                 Console.WriteLine("Digite a quantidade de horas que o veículo permaneceu estacionado:");
 
-                // TODO: Pedir para o usuário digitar a quantidade de horas que o veículo permaneceu estacionado,
+                
+                console.WriteLine("quantidade de horas que o veículo permaneceu estacionado")
+                string horas = console.readline();
+                console.WriteLine("a quantidade de horas e de " + horas)
+
                 // TODO: Realizar o seguinte cálculo: "precoInicial + precoPorHora * horas" para a variável valorTotal                
                 // *IMPLEMENTE AQUI*
                 int horas = 0;
